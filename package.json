@@ -1,0 +1,21 @@
+{
+  "name": "hapi-mvc-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.x.x",
+    "@hapi/joi": "^17.x.x",
+    "@hapi/jwt": "^4.x.x",
+    "bcrypt": "^5.x.x",
+    "dotenv": "^16.x.x",
+    "hapi-postgres-connection": "^3.x.x",
+    "hapi-auth-jwt2": "^10.x.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.x.x"
+  }
+}
